@@ -7,9 +7,4 @@ describe('App component', () => {
     const wrapper = shallow(<App />);
     expect(wrapper).toBeTruthy();
   });
-
-  it('renders with crashing', () => {
-    const wrapper = shallow(<App />);
-    expect(wrapper).toBeFalsey();
-  });
 });
