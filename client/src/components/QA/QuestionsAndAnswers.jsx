@@ -306,6 +306,7 @@ class QuestionsAndAnswers extends React.Component {
     window.onclick = (e) => {
       if (e.target === modal || e.target.className === 'thumbnail-content') {
         modal.style.display = 'none';
+        document.getElementsByTagName('body')[0].removeAttribute('style', 'overflow-y: hidden');
       }
     };
   }

@@ -57,7 +57,7 @@ class SearchBar extends React.Component {
       searchVal: e.target.value
     });
 
-    let text = e.target.value;
+    let text = e.target.value.toLowerCase();
     let questions = this.props.questions;
 
     if (!text || text === '' || text.length < 2) {
