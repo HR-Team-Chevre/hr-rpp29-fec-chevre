@@ -39,6 +39,8 @@ The details section, next to the image, contains the product category, name, and
 
 The product's extra section, below both the image end details section, displays a slogan, description, and some features the product has.
 
+![productDemo](https://user-images.githubusercontent.com/54588865/142951830-9c0eb61b-d8d3-40b8-895e-15e3260d793e.gif)
+
 ### QUESTIONS & ANSWERS
 The Questions & Answers widget includes all user-submitted questions and answers related to the given product. The list of questions scrolls infinitely, and each question only displays two answers by default, with the option to display all answers upon clicking "Load More Answers." If there are more questions or answers than can be displayed on the page, the window is capped and the list becomes scrollable. Both questions and answers are sorted by the number of "Helpful" votes they have received - but all answers from the Seller will be listed first, with their username in bold.
 
