@@ -3,6 +3,8 @@
 ## OVERVIEW
 Atelier is an e-commerce website built at the request of a hypothetical client at Hack Reactor, built using JavaScript, React, Sass, Node, Express, webpack and Babel.
 
+Check it out here: http://18.191.229.8/
+
 ## DESCRIPTION
 Our app is a single page application built with React. It includes:
 
