@@ -11,7 +11,7 @@ const Sort = ({getReviewData, totalReviews, handleTrackingClick}) => {
 
   const dropDownList = (
     <select onChange={handleSelected} className="reviews-sort-dropdown" onClick={(e) => handleTrackingClick(e, e.currentTarget.className)}>
-      <option>relevence</option>
+      <option>relevance</option>
       <option>helpfulness</option>
       <option>newest</option>
     </select>
