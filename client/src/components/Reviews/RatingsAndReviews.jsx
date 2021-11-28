@@ -24,7 +24,7 @@ class RatingsAndReviews extends React.Component {
       displayedReviewsCount: 2,
       filterReviews: [0, 0, 0, 0, 0],
       imageURL: '',
-      currentSortMethod: 'relevence',
+      currentSortMethod: 'relevance',
       displayForm: false
     };
 
@@ -42,7 +42,7 @@ class RatingsAndReviews extends React.Component {
   }
 
   componentDidMount () {
-    this.getReviewData('relevence');
+    this.getReviewData('relevance');
   }
 
   getReviewsToDisplay(filtered) {
