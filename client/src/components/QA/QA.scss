@@ -316,6 +316,7 @@ $darkSearchIcon: url('https://www.vippng.com/png/full/493-4938160_magnifying-gla
       color: $textColor;
       background-color: #212121;
     }
+    height: 30px;
   }
 
   .modal-content button {
@@ -336,6 +337,8 @@ $darkSearchIcon: url('https://www.vippng.com/png/full/493-4938160_magnifying-gla
     @media($dark) {
       background: $accentColor;
     }
+    width: 200px;
+    align-self: center;
   }
 
   .modal-content p {
@@ -350,12 +353,13 @@ $darkSearchIcon: url('https://www.vippng.com/png/full/493-4938160_magnifying-gla
 
   .modal-content textarea {
     font-family: inherit;
-    width: 50%;
+    width: 70%;
     vertical-align: middle;
     margin-bottom: 10px;
     background: none;
     overflow: auto;
     padding: 10px;
+    border-radius: 0.1rem;
   }
 
   .close-btn {
@@ -364,6 +368,7 @@ $darkSearchIcon: url('https://www.vippng.com/png/full/493-4938160_magnifying-gla
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
+    margin-top: -10px;
   }
 
   .close-btn:hover {

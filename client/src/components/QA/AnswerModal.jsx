@@ -156,11 +156,11 @@ class AnswerModal extends React.Component {
             })}</div>
             <label>What is your nickname:*&nbsp;</label>
             <input type="text" id="modal-answer-nickname" placeholder="Example: jack543!" name="name" maxLength="60" onClick={(e) => { this.props.handleTrackingClick(e, e.currentTarget.id, 'Questions & Answers'); }}/>
-            <div>(For privacy reasons, do not use your full name or email address)</div>
+            <div className="form-label">(For privacy reasons, do not use your full name or email address)</div>
             <br></br>
             <label>Your email:*&nbsp;</label>
-            <input type="text" id="modal-answer-email" placeholder="Example: jack@email.com" name="email" maxLength="60" onClick={(e) => { this.props.handleTrackingClick(e, e.currentTarget.id, 'Questions & Answers'); }}/>
-            <div>(For authentication reasons, you will not be emailed)</div>
+            <input type="text" id="modal-answer-email" placeholder="Example: jane@email.com" name="email" maxLength="60" onClick={(e) => { this.props.handleTrackingClick(e, e.currentTarget.id, 'Questions & Answers'); }}/>
+            <div className="form-label">(For authentication reasons, you will not be emailed)</div>
             <br></br>
             <label id="modal-photos-label">Upload photos:&nbsp;</label>
             <input type="file" multiple id="modal-photos" name="photos" onChange={this.uploadPhotos} onClick={(e) => { this.props.handleTrackingClick(e, e.currentTarget.id, 'Questions & Answers'); }}/>
