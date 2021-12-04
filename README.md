@@ -1,7 +1,7 @@
 # Atelier
 
 ## OVERVIEW
-Atelier is an e-commerce website built at the request of a hypothetical client at Hack Reactor, built using JavaScript, React, Sass, Node, Express, webpack and Babel.
+Atelier is an e-commerce website built at the request of a hypothetical client at Hack Reactor, built using JavaScript, React, SASS, Node, Express, webpack and Babel.
 
 Check it out here: http://18.191.229.8/
 
